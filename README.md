@@ -64,11 +64,14 @@ Application Server
 # Installation
 
 1. Clone or download files. Add them to your Root folder if you are using XAMMP the location is "C:\xampp\htdocs\InventorySystem\".
-2. Open PhpMyAdmin from your local Application Server.
-3. Create new database and name it as "stock"
-4. Import stock.sql to your stock database.
-5. Turn On Apache and MySQL on your Application Server Control Panel.
-6. Your system show be found on http://localhost/InventorySystem/
+2. Run 'composer update'
+3. Go to application/config/config.php and adjust $config['base_url'] = 'http://localhost/InventorySystem/'; to your own url.
+4. Go to application/config/database.php and put your database details.
+5. Open PhpMyAdmin from your local Application Server.
+6. Create new database and name it as "stock" or whatever database name you inserted in step 4.
+7. Import stock.sql to your stock database.
+8. Turn On Apache and MySQL on your Application Server Control Panel.
+9. Your system show be found on http://localhost/InventorySystem/
 
 # License
 
